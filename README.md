@@ -32,7 +32,7 @@ Untuk melakukan migrasi basis data, pergunakan perintah-perintah berikut:
 - **Membuat Migrasi Baru:**
 
     ```bash
-    npm run migrate_create file=[nama_file_migrasi]
+    make migrate_create file=[nama_file_migrasi]
     ```
 
     Membuat file migrasi baru dengan menggunakan Knex.
@@ -40,7 +40,7 @@ Untuk melakukan migrasi basis data, pergunakan perintah-perintah berikut:
 - **Migrasi ke Atas (Up):**
 
     ```bash
-    npm run migrate_up
+    make migrate_up
     ```
 
     Melakukan migrasi ke atas sesuai definisi dalam file migrasi.
@@ -48,7 +48,7 @@ Untuk melakukan migrasi basis data, pergunakan perintah-perintah berikut:
 - **Migrasi ke Bawah (Down):**
 
     ```bash
-    npm run migrate_down
+    make migrate_down
     ```
 
     Melakukan migrasi ke bawah sesuai definisi dalam file migrasi.
